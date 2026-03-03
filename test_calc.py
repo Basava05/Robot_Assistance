@@ -1,5 +1,4 @@
-from clac import add
-def test_calc():
-    assert add(2,3) == 5
+from calc import add
 
-test_calc()
+def test_add():
+    assert add(2, 3) == 5
